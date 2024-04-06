@@ -1,0 +1,5 @@
+Design Patterns:
+
+Using the abstract factory method design pattern helps with seperation of concerns, allows for resuabilty, and possible extenstion.I think it helped with decoupling.
+I think, at least for me, the way I tried to implement it, it did not work as well. 
+I think that we did the singleton pattern by creating one instance of a minesweeper game. 
