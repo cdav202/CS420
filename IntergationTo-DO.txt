@@ -1,0 +1,15 @@
+A few things to note:
+
+-Since newFrame() was fucking up how the Archive sets itself up, I added a getFrame (it's named something stupid rn like getF())to all parts of the UI. Scour through your UI classes: If (InsertUIClass).getF.setVisible(true) is used when a button is called, please delete said UIClass's newFrame() method. On the other hand, if newFrame is called properly when a button is called, please delete getF. Refactor(name getF into something Not Stupid, please, as try/catches as you may like) as you go.
+
+
+-Implement the Deliver Button.
+- First, create an private TDrone in PharmaDroneUI. (Please make sure you add the Tello-SDK to TDrone's bulidpath btw)
+This one's pretty easy. The Deliver input takes in 6 Integers (not int, Integer!) between 20-500(this range is Tello's restriction, not mine!). When the button is pressed, please transform the values in that TextField into 6 Integers. After that, call the TDrone Object's take0ff() and Deliver(insert Integers) at the end. Since they're the coordinates, said Integers should be sent to a variable in ArchiveInfoInsertion for Report creation. (Just ask for my help at this last part)
+
+
+-Research Loggers and Handlers
+- May have to focus on this Monday
+-But the logger isn't a Tello-Speific thing, Logger is a normal Java class, which you can modify by using a Handler class. Just have an idea of how to use a Handler to force the log infomation to display in that TextField you made instead of Eclipse's console. Implement if you have time, we'll do it Monday if you can't.
+
+
