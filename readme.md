@@ -11,7 +11,7 @@ or its EDU equivalent. You will also need a computer that will able to execute t
 <p> This is varying material that were required to turn into for class, and sometimes is not necessarily relavant to the project. It is strictly here for archive purposes, and it's best if it is left alone </p>
 
 ### Drone Bulid
-<p> Where the actual code relating to the project is. Documentation concerning the code is provided. Note that multiple bulids might be faulty in some aspect, and its best to only use the final bulid.</p>
+<p> Where the actual code relating to the project is. Documentation concerning using the code is provided. Note that multiple bulids might be faulty in some aspect, and its best to only use the final bulid.</p>
 
 ### Project Proposal + Reports
 <p>All technical writing, video demos, and design documents are contained in this folder.</p>
